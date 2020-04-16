@@ -1,0 +1,194 @@
+
+.container{
+    background-image: url(../img/musical-background-2886886_1280.jpg);
+    background-color: white;
+    background-position: initial;
+}
+
+.top-bar-right{
+    font-size: 35px;
+}
+
+.top-bar-left{
+margin-left: 2em;
+margin-top: auto;
+}
+
+.callout.primary{
+   background-color: #ffffff;
+   padding: 8em;
+   background-image: url(../img/nosotros2.gif);
+   background-position: center;
+}
+
+@media (min-width: 768px)
+{
+.callout.primary{
+    background-color: #ffffff;
+   padding: 8em;
+   background-image: url(../img/nosotros.gif);
+   background-position: center;
+}
+}
+
+
+
+.callout{
+    cursor: pointer; 
+    margin: auto;
+    background-color:#51b1f1 ;
+}
+
+
+.callout:hover{
+    background-color:#026eb6;
+
+}
+
+.menu.simple a{
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+.menu.simple a:hover{
+    color:#51b1f1 ;
+}
+
+
+.blog-post{
+    text-align: center;
+}
+
+.description{
+    text-align: justify;
+    font-size: 22px;
+}
+
+.marcas{
+    background-color: #ffffff;
+    padding: 8em;
+    background-image: url(../img/marcas2.gif);
+    background-position: center;
+}
+@media (min-width: 768px)
+{
+.marcas{
+   background-color: #ffffff;
+   padding: 8em;
+   background-image: url(../img/marcas.gif);
+   background-position: center;
+}
+}
+
+/*Footer*/
+
+.footer{
+    margin-top: 3px;
+    background: rgb(0, 0, 0.1);
+    color: #0099ff;
+    height: 10em;
+    position: relative;
+    display: flex;
+}
+
+.footer .footer-content{
+    background: #000000;
+    border: 1px solid #0099ff;
+    height: 21.9em;
+    display: flex;
+    flex-flow: column;
+}
+
+@media (min-width: 768px){
+    .footer .footer-content{
+        flex-flow: row;
+    }
+}
+
+
+.footer .footer-content .footer-section{
+    background: #000000;
+    flex: 1;
+    padding: 1.6em;
+    border: 1px solid white;
+}
+
+
+.footer .footer-content .about .contact {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+}
+.footer .footer-content .about .contact span{
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+
+}
+
+.footer .footer-content .about .socials i{
+    display: flex;   
+     border: 1px solid gray;
+    width: 2.9em;
+    height: 2.3em;
+    padding-top: 0.6em;
+    margin-right: 0.3em;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 0.3em;
+    transition: all .3s;
+}
+
+.footer .footer-content .link ul a{
+    display: block;
+    margin-bottom: 0.6em;
+    font-size: 1.2em;
+    transition: all .3s;
+}
+
+.footer .footer-content .link ul a :hover{
+    color: white;
+    margin-left: 0.9em;
+    transition: all .3s;
+}
+
+
+.footer .footer-content .about .socials a :hover{
+    border: 1px solid white;
+    color: white;
+    transition: all .3s;
+}
+
+
+.footer .footer-content .contact-form .contact-input{
+    background: #000000;
+    color: #0099ff;
+    margin-bottom: 0.6em;
+    line-height: 1.5em;
+    padding: .7em 1.2em;
+    
+}
+
+.btn-big{
+    padding: .7em 1.3em;
+    line-height: 1.3em;
+    border: 1px solid white;
+    margin-bottom: 0.6em;
+    float: right;
+    
+}
+
+.footer .footer-bottom{
+    background: #000000;
+    color: #0099ff;
+    height: 3.2em;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0em;
+    left: 0em;
+    padding-top: 1.25em;
+}

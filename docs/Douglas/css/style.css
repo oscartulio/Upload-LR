@@ -1,0 +1,264 @@
+body {
+    background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+    min-height: 100%;
+}
+
+.final_pag{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 0.5em;
+    height: auto;
+    text-align: center;
+}
+
+.price {
+    color: red;
+    font-size: 2rem;
+}
+
+.compra{
+    font-size: 1.8rem;
+}
+
+.fa-shopping-cart{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.logo{
+    margin-left: 1.5em;
+}
+
+.top-bar-right{
+    font-size: 2em;
+    margin-top: 0.5em;
+}
+
+.callout.primary{
+    background-color: #ffffff;
+    padding: 10em;
+    background-image: url(../recursos/Cuerdas.gif);
+    background-position: center;
+    height: 15em;
+}
+
+.callout.vientos{
+    background-color: #ffffff;
+    padding: 10em;
+    background-image: url(../recursos/viento.gif);
+    background-position: center;
+    height: 15em;
+}
+
+.callout.percusion{
+    background-color: #ffffff;
+    padding: 10em;
+    background-image: url(../recursos/percusion.gif);
+    background-position: center;
+    height: 15em;
+}
+
+.parrafo{
+    text-align: justify;
+}
+
+.containercuerdas{
+    background-image: url(../recursos/background\ cuerda.jpg);
+    background-color: white;
+    background-position: initial;
+}
+
+.containercuerdas{
+    background-image: url(../recursos/background\ cuerda.jpg);
+    background-color: white;
+    background-position: initial;
+}
+
+.containerpercusion{
+    background-image: url(../recursos/background\ percusion.jpg);
+    background-color: white;
+    background-position: initial;
+}
+
+.containerviento{
+    background-image: url(../recursos/background\ viento.jpg);
+    background-color: white;
+    background-position: initial;
+}
+
+/*Social bar*/
+.social-bar{
+    position: fixed;
+    left: 0;
+    top: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+  
+.fab{
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+  
+.fa-facebook{
+    background: #2E406E;
+    font-size: 25px;
+}
+  
+.fa-twitter{
+    background: #339DC5;
+    font-size: 25px;
+}
+  
+.fa-youtube{
+    background: #E83028;
+    font-size: 22.2px;
+}
+  
+.fa-instagram{
+    background: #3F60A5;
+    font-size: 28.5px;
+}
+  
+.fa-whatsapp{
+    background: rgb(33, 211, 78);
+    font-size: 28.5px;
+}
+  
+.fab:first-child{
+    border-radius: 1rem 0 0 0;
+}
+  
+.fab:last-child{
+    border-radius: 0 0 0 1rem;
+}
+  
+.fab:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+.fas{
+    color: black;
+}
+
+
+/*Footer*/
+.footer{
+    margin-top: 3px;
+    background: rgb(0, 0, 0.1);
+    color: #0099ff;
+    height: 10em;
+    position: relative;
+    display: flex;
+}
+
+.footer .footer-content{
+    background: #000000;
+    border: 1px solid #0099ff;
+    height: 21.9em;
+    display: flex;
+    flex-flow: column;
+}
+
+@media (min-width: 768px){
+    .footer .footer-content{
+        flex-flow: row;
+    }
+}
+
+
+.footer .footer-content .footer-section{
+    background: #000000;
+    flex: 1;
+    padding: 1.6em;
+    border: 1px solid white;
+}
+
+
+.footer .footer-content .about .contact {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+}
+.footer .footer-content .about .contact span{
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+
+}
+
+.footer .footer-content .about .socials i{
+    display: flex;   
+     border: 1px solid gray;
+    width: 2.9em;
+    height: 2.3em;
+    padding-top: 0.6em;
+    margin-right: 0.3em;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 0.3em;
+    transition: all .3s;
+}
+
+.footer .footer-content .link ul a{
+    display: block;
+    margin-bottom: 0.6em;
+    font-size: 1.2em;
+    transition: all .3s;
+}
+
+.footer .footer-content .link ul a :hover{
+    color: white;
+    margin-left: 0.9em;
+    transition: all .3s;
+}
+
+
+.footer .footer-content .about .socials a :hover{
+    border: 1px solid white;
+    color: white;
+    transition: all .3s;
+}
+
+
+.footer .footer-content .contact-form .contact-input{
+    background: #000000;
+    color: #0099ff;
+    margin-bottom: 0.6em;
+    line-height: 1.5em;
+    padding: .7em 1.2em;
+    
+}
+
+.btn-big{
+    padding: .7em 1.3em;
+    line-height: 1.3em;
+    border: 1px solid white;
+    margin-bottom: 0.6em;
+    float: right;
+    
+}
+
+.footer .footer-bottom{
+    background: #000000;
+    color: #0099ff;
+    height: 3.2em;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0em;
+    left: 0em;
+    padding-top: 1.25em;
+}
